@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package gps;
+
+// Enum for sample types
+enum SampleType {
+    ACTION = 0;
+    ANGULAR_POSITION = 1;
+    ANGULAR_VELOCITY = 2;
+    TARGET_POINT = 3;
+    NOISE = 4;
+}
